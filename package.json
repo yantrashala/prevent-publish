@@ -1,0 +1,32 @@
+{
+  "name": "prevent-publish",
+  "version": "0.0.1",
+  "description": "Prevent Accidental NPM publish",
+  "bin": {
+    "prevent-npm": "./bin.js"
+  },
+  "keywords": [
+    "prevent npm",
+    "accidental npm",
+    "private modules"
+  ],
+  "author": "Abraham jagadeesh",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrahamjagadeesh/prevent-publish.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/abrahamjagadeesh/prevent-publish/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/abrahamjagadeesh/prevent-publish/issues"
+  },
+  "homepage": "https://github.com/abrahamjagadeesh/prevent-publish.git#readme"
+}
