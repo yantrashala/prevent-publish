@@ -1,6 +1,6 @@
 {
   "name": "prevent-publish",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prevent Accidental NPM publish",
   "bin": {
     "prevent-npm": "./bin.js"
