@@ -1,9 +1,9 @@
 {
   "name": "prevent-publish",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Prevent Accidental NPM publish",
   "bin": {
-    "prevent-npm": "./bin.js"
+    "pap": "./bin.js"
   },
   "keywords": [
     "prevent npm",

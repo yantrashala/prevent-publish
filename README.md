@@ -17,7 +17,7 @@ By default, this prevents the module be published to `registry.npmjs.org`
 
 ```
   "scripts": {
-    "prepublish": "prevent-publish"
+    "prepublish": "pap"
   },
 ```
 
@@ -25,7 +25,7 @@ If you have installed local to your module.
 
 ```
   "scripts": {
-    "prepublish": "node_modules/.bin/prevent-publish"
+    "prepublish": "node_modules/.bin/pap"
   },
 ```
 
@@ -33,7 +33,7 @@ If you want the modules be published only to certain registries
 
 ```
   "scripts": {
-    "prepublish": "prevent-publish --whitelist=libraries.npmjs.org,registry.yarnpkg.com"
+    "prepublish": "pap --whitelist=libraries.npmjs.org,registry.yarnpkg.com"
   },
 ```
 
@@ -41,7 +41,7 @@ If you don't want to the modules be published to certain registries
 
 ```
   "scripts": {
-    "prepublish": "prevent-publish --blacklist=registry.yarnpkg.com"
+    "prepublish": "pap --blacklist=registry.yarnpkg.com"
   },
 ```
 
@@ -50,6 +50,14 @@ If you don't want to the modules be published to certain registries but allow th
 
 ```
   "scripts": {
-    "prepublish": "prevent-publish --any --blacklist=registry.yarnpkg.com"
+    "prepublish": "pap --any --blacklist=registry.yarnpkg.com"
+  },
+```
+
+To check scoped registry
+
+```
+  "scripts": {
+    "prepublish": "pap --scope=@public --whitelist=registry.yarnpkg.com"
   },
 ```
