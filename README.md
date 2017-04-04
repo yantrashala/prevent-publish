@@ -53,11 +53,3 @@ If you don't want to the modules be published to certain registries but allow th
     "prepublish": "pap --any --blacklist=registry.yarnpkg.com"
   },
 ```
-
-To check scoped registry
-
-```
-  "scripts": {
-    "prepublish": "pap --scope=@public --whitelist=registry.yarnpkg.com"
-  },
-```
